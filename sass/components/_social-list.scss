@@ -1,0 +1,30 @@
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 8px;
+}
+
+.social-list a {
+  display: flex;
+}
+
+.twitter,
+.instagram,
+.facebook,
+.linkedin {
+  fill: var(--accent-color);
+  transition: fill var(--transition);
+}
+
+.twitter:hover,
+.instagram:hover,
+.facebook:hover,
+.linkedin:hover,
+.twitter:focus,
+.instagram:focus,
+.facebook:focus,
+.linkedin:focus {
+  fill: var(--button-activ-color);
+}

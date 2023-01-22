@@ -1,0 +1,183 @@
+@media screen and (max-width: 767px) {
+  .social-media {
+  margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 72px;
+    max-width: 208px;
+  }
+}
+
+.footer {
+  display: flex;
+  background-color: var(--dark-text-color);
+  padding-top: 96px;
+  padding-bottom: 96px;
+  justify-content: center;
+}
+
+
+.studio-footer {
+  color: var(--light-bgc-color);
+  text-transform: uppercase;
+  transition: color var(--transition);
+}
+
+.footer-text {
+  color: var(--light-text-color);
+  margin-top: 16px;
+}
+
+.marcup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // max-width: 268px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-bottom: 72px;
+}
+
+.marcup .logo {
+  margin-right: 0;
+  padding: 0;
+}
+
+
+
+.media {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--light-bgc-color);
+}
+
+.icon-footer {
+  fill: rgba(255, 255, 255, 0.1);
+  transition: fill var(--transition);
+}
+
+.icon-footer:hover,
+.icon-footer:focus {
+  fill: var(--success-color);
+}
+
+
+@media screen and (min-width: 768px) {
+  .footer-content {
+    display: flex;
+    gap: 24px;
+    align-items: baseline;
+    margin-left: auto;
+   justify-content: flex-start;
+  }
+
+  .marcup {
+    align-items: flex-start;
+    padding-bottom: 0;
+    width: 264px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: 72px;
+    margin-left: 30px;
+  }
+
+  .media {
+    justify-content: flex-start;
+    max-width: 208px;
+  }
+
+.social-list {
+  display: flex;
+  gap: 16px;
+}
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+.footer {
+  margin-top: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.marcup {
+  width: 264px;
+  margin-right: 120px;
+  margin-left: 0;
+
+}
+
+.footer-content {
+  justify-content: flex-start;
+  gap: 0;
+}
+
+}
+
+
+// .footer {
+//   background-color: var(--dark-text-color);
+//   margin-top: 0;
+//   padding-top: 100px;
+//   padding-bottom: 100px;
+// }
+
+
+
+// .footer-content {
+//   display: flex;
+// }
+
+
+
+// .social-media {
+//   width: 208px;
+//   height: 80px;
+// }
+
+// .marcup {
+//   width: 264px;
+//   margin-right: 120px;
+// }
+
+
+
+
+
+// .media { застосовано все - додано джастіфай
+//   display: flex;
+//   color: var(--light-bgc-color);
+//   font-weight: 500;
+//   font-size: 16px;
+//   margin-bottom: 16px;
+// }
+
+
+// .studio-footer { уже
+//   color: var(--light-bgc-color);
+//   text-transform: uppercase;
+//   transition: color var(--transition);
+// }
+
+// .footer-text { уже
+//   color: var(--light-text-color);
+//   margin-top: 16px;
+// }
+
+// .icon-footer { уже
+//   fill: rgba(255, 255, 255, 0.1);
+//   transition: fill var(--transition);
+// }
+
+// .icon-footer:hover,  уже
+// .icon-footer:focus {
+//   fill: var(--success-color);
+// }

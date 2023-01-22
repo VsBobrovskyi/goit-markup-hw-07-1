@@ -1,0 +1,27 @@
+// *=============utils==========//
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+
+// *=============base styles=======//
+@import './base/base';
+@import './base/section';
+
+
+
+// *=============components=========//
+@import './components/container';
+@import './components/header';
+@import './components/hero';
+@import './components/card-set';
+@import './components/advantages';
+@import './components/our-team';
+@import './components/customers';
+@import './components/social-list';
+@import './components/buttons';
+@import './components/footer';
+@import './components/mobile-menu';
+@import './components/modal';
+@import './components/form';
+@import './components/footer-form';
+@import './components/portfolio-project';
