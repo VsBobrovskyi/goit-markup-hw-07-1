@@ -8,7 +8,7 @@
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 72px;
+    // margin-bottom: 72px;
   }
 
   // .team-list .card-list:last-child {
@@ -37,6 +37,7 @@
 
   .team-list .card-list:last-child {
     margin-bottom: 0;
+  
   }
 
 }
@@ -46,12 +47,25 @@
 
   @media screen and (min-width: 768px)  and (max-width: 1199px){
     .team-list .card-list {
-      margin-bottom: 64px;
+      margin-bottom: 40px;
+      
     }
 
     .team-list .card-list:nth-child(n+3) {
       margin-bottom: 0;
     }
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  
+}
+
+.team-list .card-list {
+  margin-left: 0;
+  margin-right: 0;
+}
 
   }
   

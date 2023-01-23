@@ -282,7 +282,6 @@ a:focus span {
 }
 /* position: relative; */
 .hero {
-  width: 428px;
   height: 432px;
   margin-left: auto;
   margin-right: auto;
@@ -327,6 +326,11 @@ a:focus span {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/img-desk/hero-desk@2x.jpg");
   }
 }
+@media screen and (max-width: 767px) {
+  .hero-title {
+    max-width: 318px;
+  }
+}
 .hero-title {
   margin-top: 0;
   margin-bottom: 72px;
@@ -335,13 +339,11 @@ a:focus span {
   color: var(--white-color);
   font-size: 36px;
   line-height: 1.11;
-  width: 318px;
   height: 80px;
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    width: 768px;
     height: 436px;
     margin-left: auto;
     margin-right: auto;
@@ -355,9 +357,16 @@ a:focus span {
     height: 102px;
   }
 }
+@media screen and (max-width: 1199px) {
+  .contacts {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+  }
+}
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 1440px;
+    max-width: 1440px;
     height: 603px;
     padding-top: 192px;
     padding-bottom: 192px;
@@ -366,6 +375,9 @@ a:focus span {
     margin-bottom: 48px;
     width: 492px;
     height: 120px;
+  }
+  .contacts > a {
+    margin-right: 40px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -472,7 +484,6 @@ a:focus span {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 72px;
 }
 
 .our-team {
@@ -499,10 +510,23 @@ a:focus span {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team-list .card-list {
-    margin-bottom: 64px;
+    margin-bottom: 40px;
   }
   .team-list .card-list:nth-child(n+3) {
     margin-bottom: 0;
+  }
+  .team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 24px;
+  }
+  .team-list .card-list {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 .customers-logo {
@@ -558,10 +582,21 @@ a:focus span {
 }
 
 @media screen and (min-width: 768px) {
-  .our-customers .card-list {
-    gap: 24px;
-    margin-left: auto;
-    margin-right: auto;
+  .our-customers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  :nth-child(n+4) {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .our-customers .card-list:nth-child(3) {
+    margin-right: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -787,7 +822,7 @@ a:focus span {
     padding-right: 0;
     margin-right: 0;
     margin-bottom: 72px;
-    margin-left: 30px;
+    margin-left: 108px;
   }
   .media {
     -webkit-box-pack: start;
@@ -812,6 +847,7 @@ a:focus span {
     width: 264px;
     margin-right: 120px;
     margin-left: 0;
+    margin-bottom: 0;
   }
   .footer-content {
     -webkit-box-pack: start;
@@ -1414,7 +1450,7 @@ a:focus span {
     width: 264px;
   }
   .footer-form {
-    margin-left: 30px;
+    margin-left: 108px;
   }
   .footer-label {
     gap: 24px;
