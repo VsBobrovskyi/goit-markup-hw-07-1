@@ -590,6 +590,9 @@ a:focus span {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .our-customers .card-list:nth-child(n+4) {
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .our-customers .card-list:nth-child(3) {

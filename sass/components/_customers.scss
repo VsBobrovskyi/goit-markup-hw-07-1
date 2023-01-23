@@ -63,9 +63,9 @@
   //   margin-right: 24px;
   // }
 
-  // :nth-child(n+4) {
-  //   margin-bottom: 0;
-  // }
+  .our-customers .card-list:nth-child(n+4) {
+    margin-bottom: 0;
+  }
 
   
 }
