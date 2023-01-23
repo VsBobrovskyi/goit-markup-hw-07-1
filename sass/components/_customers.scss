@@ -38,7 +38,7 @@
     margin-bottom: 0;
   }
 
-  .our-customers .card-list:nth-child(odd) {
+  .our-customers .card-list:nth-child(2n+1) {
     margin-right: 16px;
   }
 
@@ -63,14 +63,14 @@
   //   margin-right: 24px;
   // }
 
-  :nth-child(n+4) {
-    margin-bottom: 0;
-  }
+  // :nth-child(n+4) {
+  //   margin-bottom: 0;
+  // }
 
   
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .our-customers .card-list:nth-child(3) {
     margin-right: 0;
   }
